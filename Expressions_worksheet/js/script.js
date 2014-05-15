@@ -32,7 +32,7 @@ console.log("I have spent a total amount of " + totalAmount + " on groceries ove
 var originalPrice = 299; //Original price of the item.
 var discountPercentage = 150; //Percentage discount of the item.
 const salesTax = 0.075; //Sales tax.
-var phrase = 'Harman/Kardon home theater receiver'
+var phrase = ('Harman/Kardon home theater receiver')
 var finalPrice = originalPrice - discountPercentage; //original price subtract discount percentage to get the amount.
 noTaxed = 149; //final untaxed price after discount.
 var finalAmount = noTaxed * salesTax; // multiply final price of the item to sales tax to get the amount with tax.
