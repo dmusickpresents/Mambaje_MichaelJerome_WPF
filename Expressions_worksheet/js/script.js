@@ -5,7 +5,7 @@
 //Calculate Sparky'\s human years in dog years.
 
 //var humanYears = 1; //1 human years in dog age is equivalent to 7.
-var dogYears = 7; //dogs age is 7 times faster than human age.
+var dogYears = 7; //dog age is 7 times faster than human age.
 var humanAge = 3; //Sparky'\s actual human age.
 var dogAge = humanAge * dogYears; //multiply the humanAge to dogYears to get the actual dogYears.
 console.log("Sparky\'s actual dog age is" + " " + dogAge);
@@ -20,7 +20,7 @@ console.log("Each person ate " + slices + " slices of pizza at the party.");
 
 //Calculate the total amount spent on groceries over 5 weeks, and the average spent per week.
 
-var  shoppingBills = [83, 85, 75, 80, 85]; //0,1,2,3,4
+var shoppingBills = [83, 85, 75, 80, 85]; //0,1,2,3,4
 var totalAmount = shoppingBills[0] + shoppingBills[1] + shoppingBills[2] + shoppingBills[3] + shoppingBills[4];
 var weeklyAverage;
 weeklyAverage = 85; // Weekly average.
@@ -29,7 +29,7 @@ console.log("I have spent a total amount of " + totalAmount + " on groceries ove
 
 //Calculate the original price of the item, the discounted price, final price with tax and without tax.
 
-var originalPrice = 299; //Original price of the item
+var originalPrice = 299; //Original price of the item.
 var discountPercentage = 150; //Percentage discount of the item.
 const salesTax = 0.075; //Sales tax.
 var phrase = 'Harman/Kardon home theater receiver'
