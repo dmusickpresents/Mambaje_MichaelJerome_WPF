@@ -18,4 +18,5 @@ var volumeML = 500; //500ML in each bottle
 var totalVolume = volumeML * perPerson;
 totalVolume = 12000; //total volume of water consumed in 3 days.
 console.log("Each person will have " + perDay + " bottles per day, and " +
-    "" + perPerson + " bottles per " + days + " days."); //Final calculation.
+    "" + perPerson + " bottles per " + days + " days with a total volume of" +
+    "" + totalVolume + "."); //Final calculation.
