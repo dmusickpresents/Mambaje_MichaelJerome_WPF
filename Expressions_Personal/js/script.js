@@ -16,6 +16,6 @@ var perDay = perPerson / days; //Divide days of stay with water bottle per day.
 perDay = 8; //Counts of water bottle per person for a day.
 var volumeML = 500; //500ML in each bottle
 var totalVolume = volumeML * perPerson;
-
+totalVolume = 12000; //total volume of water consumed in 3 days.
 console.log("Each person will have " + perDay + " bottles per day, and " +
     "" + perPerson + " bottles per " + days + " days."); //Final calculation.
