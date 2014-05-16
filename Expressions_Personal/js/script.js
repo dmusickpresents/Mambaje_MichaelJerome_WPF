@@ -15,4 +15,4 @@ perPerson = 24; //Counts of water bottle per person for 3 days.
 var perDay = perPerson / days; //Divide days of stay with water bottle per day.
 perDay = 8; //Counts of water bottle per person for a day.
 console.log("Each person will have " + perDay + " bottles per day, and " +
-    "" + perPerson + " bottles per " + days + " days.");
+    "" + perPerson + " bottles per " + days + " days."); //Final calculation.
