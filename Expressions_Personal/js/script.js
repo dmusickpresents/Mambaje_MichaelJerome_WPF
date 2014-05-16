@@ -1,4 +1,8 @@
+//Michael Jerome Mambaje
+//05-15-2014
+//Expressions Personal
 
+//Calculate the number of bottle water needed for 3 days vacation.
 
 var peopleDrinking = 5; //Number of people drinking water.
 var days = 3; //Number of days staying.
