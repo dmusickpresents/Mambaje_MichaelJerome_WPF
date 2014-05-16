@@ -2,7 +2,7 @@
 //05-15-2014
 //Expressions Personal
 
-//Calculate the number of bottle water needed for 3 days vacation.
+//Calculate the number of bottle water needed for 5 people for 3 days.
 
 var peopleDrinking = 5; //Number of people drinking water.
 var days = 3; //Number of days staying.
