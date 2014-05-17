@@ -28,4 +28,10 @@ var secPart = 2155;
 
 var cellNo = "(" + String(areaCode) + ")" + String(firstPart) + "-" + String(secPart);
 
-console.log(cellNo);
+var firstName = "Michael Jerome";
+var lastName = "Mambaje";
+var fullName = firstName + " " + lastName;
+
+var additionalMoney = person1 * 2;
+
+console.log(additionalMoney);
