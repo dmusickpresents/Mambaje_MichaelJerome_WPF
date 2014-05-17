@@ -7,7 +7,10 @@
 var dayTotal  = [75, 75, 75, 75, 75];
 var total = dayTotal[0] + dayTotal[1] + dayTotal[2] +dayTotal[3] + dayTotal[4] + dayTotal[5];
 var totalHours = 5 * 14;
+totalHours = 70;
 var totalPay = 75 * 70;
+totalPay = 5250;
+
 
 
 
