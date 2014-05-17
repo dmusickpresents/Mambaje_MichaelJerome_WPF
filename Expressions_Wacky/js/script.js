@@ -5,6 +5,7 @@
 //Calculate the total amount I gave to 10 people after winning the lottery, and how much money will be deducted to $20M.
 //Whoever has the lowest amount must contact me for an additional amount of money received.
 
+//Order of Operations
 var person1 = 145234;
 var person2 = 152345;
 var person3 = 214256;
@@ -17,10 +18,11 @@ var person9 = 742898;
 var person10 = 832452;
 
 var total = (person1 + person2 + person3 + person4 + person5 + person6 + person7 +
-    person8 + person9 + person10);
+    person8 + person9 + person10); //
 
 var moneyWon = 20000000;
 var moneyLeft = moneyWon - total;
+
 
 var areaCode = 408;
 var firstPart = 655;
@@ -28,6 +30,7 @@ var secPart = 2155;
 
 var cellNo = "(" + String(areaCode) + ")" + String(firstPart) + "-" + String(secPart);
 
+//Concatenating Strings
 var firstName = "Michael Jerome";
 var lastName = "Mambaje";
 var fullName = firstName + " " + lastName;
