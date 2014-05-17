@@ -4,4 +4,6 @@
 
 //Calculate the cost to develop a website base on $75 per hour, 5 hours a day for 2 weeks.
 
-var 
+var hourlyTotal = [75, 75, 75, 75, 75];
+hourlyTotal = 375;
+
