@@ -19,7 +19,8 @@ totalPay = 5250;
 var perMinute = minutes * totalHours;
 perMinute = 4200;
 var minutePay = 5250 / 4200;
-console.log("They will pay " + fullName + " a total pay of " + totalPay + " for 2 weeks, " + total + " for 5 hours");
+console.log("They will pay " + fullName + " a total pay of " + totalPay + " for 2 weeks, " + total + " for 5 hours," +
+    "" + perMinute + "per minute ");
 
 
 
