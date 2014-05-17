@@ -36,5 +36,5 @@ var additionalMoney = person1 * 2;
 
 console.log("The total amount of money given to random people is " + total + " and money left from" +
     "" + moneyWon + " is " + moneyLeft + ", but then the person with the smallest amount could double the amount " +
-    "by calling " + cellNo + " and shouting the name " + fullName + ". The person with the smallest amount which is " +
+    " by calling " + cellNo + " and shouting the name " + fullName + ". The person with the smallest amount which is " +
     "" + person1 + " got a total of " + additionalMoney);
