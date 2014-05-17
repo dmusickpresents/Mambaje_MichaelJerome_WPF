@@ -21,4 +21,4 @@ var total = (person1 + person2 + person3 + person4 + person5 + person6 + person7
 var moneyWon = 20000000;
 var moneyLeft = moneyWon - total;
 
-console.log(moneyLeft);
+console.log(moneyLeft " + " total + " );
