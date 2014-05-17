@@ -3,6 +3,7 @@
 //Expressions Wacky
 
 //Calculate the total amount I gave to 10 people after winning the lottery, and how much money will be deducted to $20M.
+//Whoever has the lowest amount must call give me a call for an additional amount of money received.
 
 var person1 = 145234;
 var person2 = 152345;
@@ -21,4 +22,6 @@ var total = (person1 + person2 + person3 + person4 + person5 + person6 + person7
 var moneyWon = 20000000;
 var moneyLeft = moneyWon - total;
 
-console.log(moneyLeft " + " total + " );
+var 
+
+console.log(
