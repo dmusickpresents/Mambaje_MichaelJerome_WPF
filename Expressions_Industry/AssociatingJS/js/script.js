@@ -11,7 +11,7 @@ var fullName = firstName + " " + lastName;
 const pay = 75;
 var minutes = 60;
 var dayTotal  = [75, 75, 75, 75, 75];
-var total = dayTotal[0] + dayTotal[1] + dayTotal[2] +dayTotal[3] + dayTotal[4] + dayTotal[5];
+var total = dayTotal[0] + dayTotal[1] + dayTotal[2] + dayTotal[3] + dayTotal[4] + dayTotal[5];
 var totalHours = 5 * 14;
 totalHours = 70;
 var totalPay = totalHours * pay;
@@ -19,8 +19,7 @@ totalPay = 5250;
 var perMinute = minutes * totalHours;
 perMinute = 4200;
 var minutePay = 5250 / 4200;
-console.log("They will pay " + fullName + " a total pay of " + totalPay + " for 2 weeks, +" +
-    " + " total " + for 5 hours");
+console.log("They will pay " + fullName + " a total pay of " + totalPay + " for 2 weeks, " + total + " for 5 hours");
 
 
 
