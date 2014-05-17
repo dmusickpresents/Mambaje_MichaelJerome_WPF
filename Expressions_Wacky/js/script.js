@@ -10,8 +10,8 @@ var person3 = 214256;
 var person4 = 423556;
 var person5 = 323552;
 var person6 = 534673;
-var person7 = 10023242;
-var person8 = 31232425;
+var person7 = 2023242;
+var person8 = 1232425;
 var person9 = 742898;
 var person10 = 832452;
 
@@ -19,3 +19,6 @@ var total = (person1 + person2 + person3 + person4 + person5 + person6 + person7
     person8 + person9 + person10);
 
 var moneyWon = 20000000;
+var moneyLeft = total - moneyWon;
+
+console.log(moneyLeft);
