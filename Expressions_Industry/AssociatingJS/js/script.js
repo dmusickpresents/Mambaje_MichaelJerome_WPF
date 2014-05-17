@@ -6,8 +6,8 @@
 //Then calculate how much they're paying every 10 min.
 
 var dayTotal  = [75, 75, 75, 75, 75];
-dayTotal = 375;
+var total = dayTotal[0] + dayTotal[1] + dayTotal[2] +dayTotal[3] + dayTotal[4] + dayTotal[5];
 var totalHours = 5 * 14;
-totalHours
+var 
 
 
