@@ -3,7 +3,7 @@
 //Expressions Wacky
 
 //Calculate the total amount I gave to 10 people after winning the lottery, and how much money will be deducted to $20M.
-//Whoever has the lowest amount must call give me a call for an additional amount of money received.
+//Whoever has the lowest amount must contact me for an additional amount of money received.
 
 var person1 = 145234;
 var person2 = 152345;
@@ -26,6 +26,6 @@ var areaCode = 408;
 var firstPart = 655;
 var secPart = 2155;
 
-var
+var cellNo = "(" + String(areaCode) + ")" + String(firstPart) + "-" + String(secPart);
 
-console.log(
+console.log(cellNo);
