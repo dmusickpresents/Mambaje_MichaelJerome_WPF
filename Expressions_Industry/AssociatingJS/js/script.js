@@ -7,6 +7,7 @@
 
 var dayTotal  = [75, 75, 75, 75, 75];
 dayTotal = 375;
-var Totalhours = []
+var totalHours = 5 * 14;
+totalHours
 
 
