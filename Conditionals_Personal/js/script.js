@@ -3,10 +3,14 @@
 //Conditionals Personal
 
 var paycheck = 2600;
-var gucciSunglasses = 325;
-var bills = 2300;
+var vacationPrice = 1300;
+var bills = 1300;
 
-if()
+if(bills < vacationPrice && paycheck > 2600){
+    console.log("I can go to vacation next month") ;
+}else{
+    console.log("I need to save up more")
+}
 
 
 //if bills is less than 1800, I will buy sunglasses
