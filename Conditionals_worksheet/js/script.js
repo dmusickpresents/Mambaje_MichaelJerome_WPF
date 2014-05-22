@@ -3,10 +3,14 @@
 //Conditionals worksheet
 
 var mpg = 45;
-var tankReading = 20;
-var gasCapacity = 5;
+var tankReading = 30;
+var gasCapacity = 3;
 
-if(tankReading > gasCapacity){
+if(tankReading > mpg){
 
-    console.log("You can make it without stopping for gas!")
+    console.log("You can make it without stopping for gas!");
+}else{
+
+    console.log("You only have " + gasCapacity + " gallons of gas in your tank," +
+        "better get gas now while you can!");
 }
