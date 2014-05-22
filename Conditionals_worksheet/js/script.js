@@ -4,6 +4,9 @@
 
 var mpg = 45;
 var tankReading = 20;
-var tankCapacity = 15;
+var gasCapacity = 5;
 
-if()
+if(tankReading > gasCapacity){
+
+    console.log("You can make it without stopping for gas!")
+}
