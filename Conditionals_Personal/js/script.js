@@ -6,7 +6,7 @@ var paycheck = 2600;
 var vacationPrice = 1300;
 var bills = 1300;
 
-if(bills < vacationPrice && paycheck < 2600){
+if(bills < vacationPrice && paycheck == 2600){
     console.log("I can go to vacation next month") ;
 }else{
     console.log("I need to save up more")
