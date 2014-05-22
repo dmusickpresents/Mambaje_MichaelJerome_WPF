@@ -4,7 +4,7 @@
 
 var mpg = 45;
 var tankReading = 30;
-var gasCapacity = 3;
+var gasCapacity = prompt("Enter your gas capacity:");
 
 if(tankReading > mpg){
 
