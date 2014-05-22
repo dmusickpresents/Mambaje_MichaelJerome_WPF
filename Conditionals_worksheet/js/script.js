@@ -2,4 +2,8 @@
 //05-22-2014
 //Conditionals worksheet
 
-var
+var mpg = 45;
+var tankReading = 20;
+var tankCapacity = 15;
+
+
