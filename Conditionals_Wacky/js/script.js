@@ -12,8 +12,11 @@ limitOfPictures = (guest < 50) ? "I am charging $" + chargeIfLessThan50 + "" : "
 + "";
 console.log(limitOfPictures);
 
+var answerYes = "Yes";
+var answer = "No";
 var nameOnPictures = prompt("would you like to put a title on your pictures?");
-if(nameOnPictures){
+if(answerYes){
+    prompt("please input the name of the title");
+    alert.log(prompt);
 
-    
 }
