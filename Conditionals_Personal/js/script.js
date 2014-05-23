@@ -11,11 +11,11 @@ var billsToPayThisMonth = prompt("How much is total bills for this month?");
 
 //If and Else
 if(billsToPayThisMonth > priceForVacation){
-     console.log("We can't go to Hawaii.");
+     console.log("You can't go to Hawaii!");
 }else{
-    console.log("We can go to Hawaii.");
-
-    alert(paycheckPlusSavings - billsToPayThisMonth - priceForVacation);
+    console.log("You can go to Hawaii!");
+//Alert for pocket money or money left after calculations.
+    alert(paycheckPlusSavings - billsToPayThisMonth - priceForVacation + " is your pocket money!");
 
 
 }
