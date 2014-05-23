@@ -13,3 +13,7 @@ limitOfPictures = (guest < 50) ? "I am charging $" + chargeIfLessThan50 + "" : "
 console.log(limitOfPictures);
 
 var nameOnPictures = prompt("would you like to put a title on your pictures?");
+if(nameOnPictures){
+
+    
+}
