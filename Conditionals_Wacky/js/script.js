@@ -17,6 +17,10 @@ var answer = "No";
 var nameOnPictures = prompt("would you like to put a title on your pictures?");
 if(answerYes){
     prompt("please input the name of the title");
-    alert.log(prompt);
+    console.log(prompt);
 
+
+}else{
+    
+    console.log("We'll decide for you!");
 }
