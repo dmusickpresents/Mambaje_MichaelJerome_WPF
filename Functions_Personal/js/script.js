@@ -32,3 +32,12 @@ if(myLuggage > planeBagAllowedLbs) {
 }
 
 //Anonymous Function
+var calcTotMilesByCar = function(going, comingBack){
+    var total = going + comingBack;
+    return total;
+
+}
+
+var totalMiles = calcTotMilesByCar(546, 546);
+
+console.log(totalMiles);
