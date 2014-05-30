@@ -13,5 +13,5 @@ var planeTaxiTotal = planeTicket + taxiTotal;
 
 var vegasTrip;
 
-vegasTrip = (planeTaxiTotal > driveCommuteTotal) ? "We will drive going to Vegas!" : "We will fly going to Vegas!";
+vegasTrip = (planeTaxiTotal < driveCommuteTotal) ? "We will drive going to Vegas!" : "We will fly going to Vegas!";
 console.log(vegasTrip)
