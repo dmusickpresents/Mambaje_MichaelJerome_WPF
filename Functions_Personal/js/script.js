@@ -21,9 +21,10 @@ console.log(vegasTrip);
 
 var planeBagAllowedLbs = 50;
 var myLuggage = 51;
+var removeClothing = 49.99;
 
 if(myLuggage > planeBagAllowedLbs){
-    console.log("I can check in my bags.");
+    console.log("I can't check in my bags.");
 
 }else{
     console.log("I have to take out some clothes!");
