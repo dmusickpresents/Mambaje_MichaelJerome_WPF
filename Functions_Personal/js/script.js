@@ -40,4 +40,4 @@ var calcTotMilesByCar = function(going, comingBack){
 
 var totalMiles = calcTotMilesByCar(546, 546);
 
-console.log(totalMiles);
+console.log(totalMiles + " is the total miles going back and forth if we drive going to Vegas.");
