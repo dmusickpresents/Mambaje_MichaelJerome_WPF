@@ -18,14 +18,14 @@ vegasTrip = (planeTaxiTotal < driveCommuteTotal) ? "We will fly going to Vegas!"
 console.log(vegasTrip);
 
 //Else if
-
 var planeBagAllowedLbs = 50;
 var myLuggage = 51;
 var removeClothing = 49.99;
 
-if(myLuggage > planeBagAllowedLbs){
+if(myLuggage > planeBagAllowedLbs) {
     console.log("I can't check in my bags!");
-
+}else if(myLuggage < removeClothing){
+    console.log("I can check in, only if i remove some clothing.");
 }else{
     console.log("I can check in my bags.");
 }
