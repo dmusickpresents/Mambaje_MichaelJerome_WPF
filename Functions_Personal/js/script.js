@@ -44,6 +44,7 @@ var totalMiles = calcTotMilesByCar(546, 570);
 
 console.log(totalMiles + " is the total miles going back and forth if we drive going to Vegas.");
 
+//Basic Function
 function calcTotHoursByPlane(){
     var flyingToVegas = 1.25;
     var flyingBack = 1.30;
