@@ -8,4 +8,4 @@ alert("Calculation of Light years to Human years.");
 var distance = prompt("Please enter distance of the pitcher.");
 var secondsBallTravel = prompt("Please enter time ball traveled.");
 var pitchingSpeed = distance / secondsBallTravel;
-console.log(pitchingSpeed);
+alert(pitchingSpeed);
