@@ -16,3 +16,5 @@ alert("The speed of the baseball is " + mph + "  MPH.");
 console.log("The speed of the baseball is " + mph + " MPH.");
 
 
+
+
