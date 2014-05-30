@@ -28,4 +28,7 @@ if(myLuggage > planeBagAllowedLbs) {
     console.log("I can check in, only if i remove some clothing.");
 }else{
     console.log("I can check in my bags.");
+
 }
+
+//Anonymous Function
