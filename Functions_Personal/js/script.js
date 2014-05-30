@@ -19,12 +19,12 @@ console.log(vegasTrip);
 
 //Else if
 
-var planeTaxiTotal;
-var driveCommuteTotal;
+var planeBagAllowedLbs = 50;
+var myLuggage = 51;
 
-if(planeTaxiTotal > driveCommuteTotal){
-    console.log("We will fly going to Vegas!");
+if(myLuggage > planeBagAllowedLbs){
+    console.log("I can check in my bags.");
 
 }else{
-    console.log("We will drive going to Vegas");
+    console.log("I have to take out some clothes!");
 }
