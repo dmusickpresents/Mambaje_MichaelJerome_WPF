@@ -2,6 +2,8 @@
 //05-29-2014
 //Functions Personal
 
+alert("Trip to Vegas!!!!");
+
 //Ternary
 var gasPrice = 3.99;
 var denaliTankTotal = 26;
