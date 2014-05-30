@@ -9,4 +9,4 @@ var distance = prompt("Please enter distance of the pitcher.");
 var secondsBallTravel = prompt("Please enter time ball traveled.");
 var pitchingSpeed = distance / secondsBallTravel;
 alert(pitchingSpeed);
-console.log(pitchingSpeed);
+console.log(" the speed of the baseball is " + pitchingSpeed + " feet per second");
